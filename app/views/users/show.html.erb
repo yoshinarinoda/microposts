@@ -2,3 +2,6 @@
   <%= gravatar_for @user %>
   <%= @user.name %>
 </h1>
+
+<button type="button" class="btn btn-primary btn-lg btn-block">edit</button>
+  <%= link_to "edit" , edit_user_path(@user) %>
